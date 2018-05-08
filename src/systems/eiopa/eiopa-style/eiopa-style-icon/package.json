@@ -3,7 +3,7 @@
   "author": "European Commission",
   "license": "EUPL-1.1",
   "version": "1.0.0",
-  "description": "ECL Icons -> EC flavor",
+  "description": "EIOPA Icons -> EC flavor",
   "style": "eiopa-style-icon.scss",
   "scripts": {
     "test:independent-sass":

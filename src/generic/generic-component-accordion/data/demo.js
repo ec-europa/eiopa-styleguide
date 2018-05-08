@@ -1,7 +1,7 @@
 module.exports = {
   _demo: {
     scripts: `document.addEventListener('DOMContentLoaded', function () {
-      ECL.accordions();
+      EIOPA.accordions();
     });`,
   },
   panels: [

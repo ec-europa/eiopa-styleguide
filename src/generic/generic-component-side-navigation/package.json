@@ -3,7 +3,7 @@
   "author": "European Commission",
   "license": "EUPL-1.1",
   "version": "1.0.0",
-  "description": "ECL Side Navigation Menu",
+  "description": "EIOPA Side Navigation Menu",
   "module": "generic-component-side-navigation.js",
   "style": "generic-component-side-navigation.scss",
   "dependencies": {

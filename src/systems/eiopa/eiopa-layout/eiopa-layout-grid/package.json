@@ -3,7 +3,7 @@
   "author": "European Commission",
   "license": "EUPL-1.1",
   "version": "1.0.0",
-  "description": "ECL Grid",
+  "description": "EIOPA Grid",
   "style": "eiopa-layout-grid.scss",
   "private": true,
   "dependencies": {

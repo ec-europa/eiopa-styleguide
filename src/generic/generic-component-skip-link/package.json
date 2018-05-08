@@ -3,7 +3,7 @@
   "author": "European Commission",
   "license": "EUPL-1.1",
   "version": "1.0.0",
-  "description": "ECL Skip link",
+  "description": "EIOPA Skip link",
   "style": "generic-component-skip-link.scss",
   "dependencies": {
     "@ecl/generic-base": "^1.0.0",

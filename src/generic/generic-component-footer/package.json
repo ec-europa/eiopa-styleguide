@@ -1,7 +1,7 @@
 {
   "name": "@ecl/generic-component-footer",
   "version": "1.0.0",
-  "description": "ECL Footers",
+  "description": "EIOPA Footers",
   "style": "generic-component-footer.scss",
   "author": "European Commission",
   "license": "EUPL-1.1",

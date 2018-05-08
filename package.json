@@ -2,7 +2,7 @@
   "private": true,
   "author": "European Commission",
   "license": "EUPL-1.1",
-  "description": "Europa Component Library",
+  "description": "EIOPA",
   "scripts": {
     "changelog": "lerna-changelog",
     "clean": "rimraf dist",
