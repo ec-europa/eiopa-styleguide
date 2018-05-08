@@ -33,10 +33,7 @@ theme.addLoadPath(path.resolve(__dirname, './theme-overrides'));
 
 // Project config
 fractal.set('project.title', 'EC System');
-fractal.set(
-  'project.url',
-  'https://eiopa-europa.github.io/europa-component-library/'
-);
+fractal.set('project.url', '#');
 fractal.set('project.repo', 'https://github.com/eiopa-europa/eiopa-styleguide');
 
 // Components config

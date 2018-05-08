@@ -15,15 +15,15 @@ const banner = `${pkg.name} - ${
 
 module.exports = {
   scripts: [
-    {
-      entry: path.resolve(__dirname, 'eiopa-preset-website.js'),
-      dest: path.resolve(outputFolder, 'scripts/ecl-eiopa-preset-website.js'),
-      options: {
-        banner,
-        moduleName: 'ECL',
-        sourceMap: isProd ? false : 'inline',
-      },
-    },
+    // {
+    //   entry: path.resolve(__dirname, 'eiopa-preset-website.js'),
+    //   dest: path.resolve(outputFolder, 'scripts/ecl-eiopa-preset-website.js'),
+    //   options: {
+    //     banner,
+    //     moduleName: 'ECL',
+    //     sourceMap: isProd ? false : 'inline',
+    //   },
+    // },
   ],
   styles: [
     {
@@ -38,7 +38,10 @@ module.exports = {
   ],
   copy: [
     {
-      from: path.resolve(nodeModules, '@ecl/eiopa-component-form-checkbox/images'),
+      from: path.resolve(
+        nodeModules,
+        '@ecl/eiopa-component-form-checkbox/images'
+      ),
       to: path.resolve(outputFolder, 'images'),
     },
     {
@@ -53,11 +56,17 @@ module.exports = {
       to: path.resolve(outputFolder, 'images'),
     },
     {
-      from: path.resolve(nodeModules, '@ecl/eiopa-component-form-select/images'),
+      from: path.resolve(
+        nodeModules,
+        '@ecl/eiopa-component-form-select/images'
+      ),
       to: path.resolve(outputFolder, 'images'),
     },
     {
-      from: path.resolve(nodeModules, '@ecl/eiopa-component-social-icon/images'),
+      from: path.resolve(
+        nodeModules,
+        '@ecl/eiopa-component-social-icon/images'
+      ),
       to: path.resolve(outputFolder, 'images'),
     },
     {

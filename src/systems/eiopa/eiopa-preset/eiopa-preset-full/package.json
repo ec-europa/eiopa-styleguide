@@ -6,12 +6,9 @@
   "description": "Europa Component Library base preset",
   "style": "eiopa-preset-full.scss",
   "module": "eiopa-preset-full.js",
-  "publishConfig": {
-    "access": "public"
-  },
+  "private": true,
   "scripts": {
     "build:copy": "ecl-builder copy",
-    "build:scripts": "ecl-builder scripts",
     "build:styles": "ecl-builder styles",
     "build": "rimraf build && run-p build:* -ln",
     "clean": "rimraf build dist",

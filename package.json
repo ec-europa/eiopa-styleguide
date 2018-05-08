@@ -16,8 +16,7 @@
     "postinstall": "lerna run postinstall && lerna run prepublish",
     "precommit": "lint-staged",
     "publish": "scripts/release.sh",
-    "start:ec": "cd tools/ec-styleguide && npm run start",
-    "start:eu": "cd tools/eu-styleguide && npm run start",
+    "start:eiopa": "cd tools/eiopa-styleguide && npm run start",
     "test:coding-conventions": "npm run lint",
     "test:functional": "node ./scripts/test-functional.js",
     "test:independent-sass": "lerna run --parallel test:independent-sass",
@@ -25,6 +24,8 @@
   },
   "devDependencies": {
     "@ecl/eslint-config": "0.1.2",
+    "@ecl/fractal-theme": "1.0.0",
+    "@ecl/fractal-twig": "1.0.0",
     "@ecl/qa": "0.2.0",
     "@ecl/stylelint-config": "0.2.0",
     "@octokit/rest": "15.2.6",
