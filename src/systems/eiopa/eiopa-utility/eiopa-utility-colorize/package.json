@@ -3,11 +3,10 @@
   "author": "European Commission",
   "license": "EUPL-1.1",
   "version": "1.0.0",
-  "description": "ECL Colorize",
+  "description": "EIOPA Colorize",
   "style": "eiopa-utility-colorize.scss",
   "dependencies": {
-    "@ecl/eiopa-base": "^1.0.0",
-    "@ecl/generic-utility-colorize": "^1.0.0"
+    "@ecl/eiopa-base": "^1.0.0"
   },
   "private": true,
   "repository": {

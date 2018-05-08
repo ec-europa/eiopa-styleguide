@@ -21,6 +21,6 @@ module.exports = {
       item.context.category
     }">\n${markup}\n</li>\n<!-- End: @${item.handle} -->\n`;
   },
-  default: 'ecl-color-primary',
+  default: 'ecl-blue-120',
   variants,
 };
