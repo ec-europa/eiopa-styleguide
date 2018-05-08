@@ -6,6 +6,6 @@
     <a href="https://eiopa-europa.github.io/europa-component-library/" class="ecl-link ecl-link--inverted ecl-link--standalone ecl-breadcrumb__link">EIOPA</a>
   </li>
   <li class="ecl-breadcrumb__segment ecl-breadcrumb__segment--last">
-    <a href="https://eiopa-europa.github.io/europa-component-library/ec/" class="ecl-link ecl-link--inverted ecl-link--standalone ecl-breadcrumb__link">EIOPA Styleguide</a>
+    <a href="https://eiopa-europa.github.io/eiopa-styleguide/eiopa/" class="ecl-link ecl-link--inverted ecl-link--standalone ecl-breadcrumb__link">EIOPA Styleguide</a>
   </li>
 </ol>
