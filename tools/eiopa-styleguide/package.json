@@ -1,0 +1,46 @@
+{
+  "private": "true",
+  "name": "@ecl/eiopa-styleguide",
+  "author": "European Commission",
+  "license": "EUPL-1.1",
+  "version": "1.0.0",
+  "description": "ECL EC Styleguide based on Fractal",
+  "scripts": {
+    "build:preset":
+      "cd ../../src/systems/ec/eiopa-preset/eiopa-preset-website && npm run build",
+    "clean": "rimraf ./static/eiopa-preset-website",
+    "copy:preset":
+      "ncp ../../src/systems/ec/eiopa-preset/eiopa-preset-website/dist ./static/eiopa-preset-website",
+    "dist":
+      "npm run clean && npm run copy:preset && cross-env NODE_ENV=production fractal build",
+    "postinstall":
+      "copyfiles -f '../../node_modules/@ecl/generic-*/**/*.twig' ../../src/systems/ec/_imports",
+    "serve": "fractal start --sync",
+    "start": "npm-run-all clean build:preset --parallel serve watch:preset",
+    "watch:preset":
+      "cd ../../src/systems/ec/eiopa-preset/eiopa-preset-website && npm run watch"
+  },
+  "devDependencies": {
+    "@ecl/eiopa-preset-website": "^1.0.0",
+    "@ecl/fractal-theme": "^1.0.0",
+    "@ecl/fractal-twig": "^1.0.0",
+    "@frctl/fractal": "1.1.7",
+    "copyfiles": "2.0.0",
+    "cross-env": "5.1.4",
+    "ncp": "2.0.0",
+    "npm-run-all": "4.1.2",
+    "rimraf": "2.6.2"
+  },
+  "main": "fractal.js",
+  "fractal": {
+    "main": "fractal.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiopa-europa/eiopa-styleguide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eiopa-europa/eiopa-styleguide/issues"
+  },
+  "homepage": "https://github.com/eiopa-europa/eiopa-styleguide#readme"
+}

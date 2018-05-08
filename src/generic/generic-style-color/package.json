@@ -1,0 +1,20 @@
+{
+  "name": "@ecl/generic-style-color",
+  "author": "European Commission",
+  "license": "EUPL-1.1",
+  "version": "1.0.0",
+  "description": "ECL Colors",
+  "dependencies": {
+    "@ecl/generic-base": "^1.0.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ec-europa/eiopa-styleguide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ec-europa/eiopa-styleguide/issues"
+  },
+  "homepage": "https://github.com/ec-europa/eiopa-styleguide",
+  "keywords": ["ecl", "europa-component-library", "design-system"]
+}

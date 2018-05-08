@@ -1,0 +1,20 @@
+# Temporary files
+.tmp
+
+# Ignore some folders
+.changelog
+node_modules
+dist
+/src/systems/*/_imports
+**/errorShots
+**/screenshots/captured
+**/screenshots/diff
+
+# Logs
+logs
+*.log
+
+# Editors
+.idea
+.c9
+.env

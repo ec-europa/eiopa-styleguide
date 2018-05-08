@@ -1,0 +1,14 @@
+{
+  "name": "@ecl/fractal-twig",
+  "author": "European Commission",
+  "version": "1.0.0",
+  "license": "EUPL-1.1",
+  "description": "The default Fractal theme for ECL.",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "@frctl/fractal": "1.1.7",
+    "lodash": "4.17.5",
+    "twig": "1.10.5"
+  }
+}

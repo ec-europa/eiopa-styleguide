@@ -1,0 +1,30 @@
+{
+  "name": "@ecl/eiopa-style-icon",
+  "author": "European Commission",
+  "license": "EUPL-1.1",
+  "version": "1.0.0",
+  "description": "ECL Icons -> EC flavor",
+  "style": "eiopa-style-icon.scss",
+  "scripts": {
+    "test:independent-sass":
+      "node-sass --quiet --include-path ../../../../../node_modules eiopa-style-icon.scss dist/eiopa-style-icon.css"
+  },
+  "dependencies": {
+    "@ecl/eiopa-base": "^1.0.0",
+    "@ecl/generic-style-icon": "^1.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "4.8.3"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiopa-europa/europa-component-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eiopa-europa/europa-component-library/issues"
+  },
+  "homepage": "https://github.com/eiopa-europa/europa-component-library",
+  "keywords": ["ecl", "europa-component-library", "design-system"],
+  "sass": "eiopa-style-icon.scss"
+}

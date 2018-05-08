@@ -1,0 +1,12 @@
+/**
+ * Padding utilities
+ */
+
+// Import base and generic
+@import '@ecl/eiopa-base/eiopa-base';
+@import '@ecl/generic-utility-padding/generic-utility-padding';
+
+// Use generic mixin
+@include exports('eiopa-utility-padding') {
+  @include ecl-utility-padding();
+}

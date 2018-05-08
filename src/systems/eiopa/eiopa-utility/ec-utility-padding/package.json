@@ -1,0 +1,23 @@
+{
+  "name": "@ecl/eiopa-utility-padding",
+  "author": "European Commission",
+  "license": "EUPL-1.1",
+  "version": "1.0.0",
+  "description": "ECL Padding",
+  "style": "eiopa-utility-padding.scss",
+  "dependencies": {
+    "@ecl/eiopa-base": "^1.0.0",
+    "@ecl/generic-utility-padding": "^1.0.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiopa-europa/europa-component-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eiopa-europa/europa-component-library/issues"
+  },
+  "homepage": "https://github.com/eiopa-europa/europa-component-library",
+  "keywords": ["ecl", "europa-component-library", "design-system"],
+  "sass": "eiopa-utility-padding.scss"
+}

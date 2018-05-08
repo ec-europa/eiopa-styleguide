@@ -1,0 +1,13 @@
+/**
+ * Button component
+ * @define button
+ */
+
+// Import base and generic
+@import '@ecl/eiopa-base/eiopa-base';
+@import '@ecl/generic-component-button/generic-component-button';
+
+// Use generic mixin
+@include exports('eiopa-component-button') {
+  @include ecl-button();
+}

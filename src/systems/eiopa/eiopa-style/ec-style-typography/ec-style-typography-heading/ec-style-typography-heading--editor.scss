@@ -1,0 +1,6 @@
+@import '@ecl/eiopa-base/eiopa-base';
+@import '@ecl/generic-style-typography-heading/generic-style-typography-heading--editor';
+
+@include exports('eiopa-style-typography-heading--editor') {
+  @include ecl-editor-typography-heading();
+}

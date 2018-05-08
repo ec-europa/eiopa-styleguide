@@ -1,0 +1,23 @@
+{
+  "name": "@ecl/generic-component-listing",
+  "author": "European Commission",
+  "license": "EUPL-1.1",
+  "version": "1.0.0",
+  "description": "ECL Listings",
+  "style": "generic-component-listing.scss",
+  "dependencies": {
+    "@ecl/generic-base": "^1.0.0",
+    "@ecl/generic-component-list-item": "^1.0.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ec-europa/eiopa-styleguide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ec-europa/eiopa-styleguide/issues"
+  },
+  "homepage": "https://github.com/ec-europa/eiopa-styleguide",
+  "keywords": ["ecl", "europa-component-library", "design-system"],
+  "sass": "generic-component-listing.scss"
+}

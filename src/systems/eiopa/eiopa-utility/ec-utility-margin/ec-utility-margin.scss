@@ -1,0 +1,12 @@
+/**
+ * Margin utilities
+ */
+
+// Import base and generic
+@import '@ecl/eiopa-base/eiopa-base';
+@import '@ecl/generic-utility-margin/generic-utility-margin';
+
+// Use generic mixin
+@include exports('eiopa-utility-margin') {
+  @include ecl-utility-margin();
+}

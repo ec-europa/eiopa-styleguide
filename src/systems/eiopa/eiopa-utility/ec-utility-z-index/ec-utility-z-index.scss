@@ -1,0 +1,12 @@
+/**
+ * Z-index utilities
+ */
+
+// Import base and generic
+@import '@ecl/eiopa-base/eiopa-base';
+@import '@ecl/generic-utility-z-index/generic-utility-z-index';
+
+// Use generic mixin
+@include exports('eiopa-utility-z-index') {
+  @include ecl-utility-z-index();
+}

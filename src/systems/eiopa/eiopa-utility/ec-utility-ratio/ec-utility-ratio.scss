@@ -1,0 +1,12 @@
+/**
+ * Ratio utilities
+ */
+
+// Import base and generic
+@import '@ecl/eiopa-base/eiopa-base';
+@import '@ecl/generic-utility-ratio/generic-utility-ratio';
+
+// Use generic mixin
+@include exports('eiopa-utility-ratio') {
+  @include ecl-utility-ratio();
+}

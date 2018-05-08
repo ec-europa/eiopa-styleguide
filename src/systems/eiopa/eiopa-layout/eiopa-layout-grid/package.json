@@ -1,0 +1,23 @@
+{
+  "name": "@ecl/eiopa-layout-grid",
+  "author": "European Commission",
+  "license": "EUPL-1.1",
+  "version": "1.0.0",
+  "description": "ECL Grid",
+  "style": "eiopa-layout-grid.scss",
+  "private": true,
+  "dependencies": {
+    "@ecl/eiopa-base": "^1.0.0",
+    "@ecl/generic-layout-grid": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiopa-europa/europa-component-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eiopa-europa/europa-component-library/issues"
+  },
+  "homepage": "https://github.com/eiopa-europa/europa-component-library",
+  "keywords": ["ecl", "europa-component-library", "design-system"],
+  "sass": "eiopa-layout-grid.scss"
+}

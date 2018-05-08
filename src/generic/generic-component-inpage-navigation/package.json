@@ -1,0 +1,32 @@
+{
+  "name": "@ecl/generic-component-inpage-navigation",
+  "author": "European Commission",
+  "license": "EUPL-1.1",
+  "version": "1.0.0",
+  "description": "ECL Inpage Navigation",
+  "module": "generic-component-inpage-navigation.js",
+  "style": "generic-component-inpage-navigation.scss",
+  "dependencies": {
+    "@ecl/generic-base": "^1.0.0",
+    "@ecl/generic-component-expandable": "^1.0.0",
+    "@ecl/generic-component-link": "^1.0.0",
+    "@ecl/generic-style-icon": "^1.0.0",
+    "gumshoejs": "3.5.0",
+    "stickyfilljs": "2.0.3"
+  },
+  "devDependencies": {
+    "@ecl/generic-style-typography-paragraph": "^1.0.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ec-europa/eiopa-styleguide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ec-europa/eiopa-styleguide/issues"
+  },
+  "homepage": "https://github.com/ec-europa/eiopa-styleguide",
+  "keywords": ["ecl", "europa-component-library", "design-system"],
+  "main": "generic-component-inpage-navigation.js",
+  "sass": "generic-component-inpage-navigation.scss"
+}

@@ -1,0 +1,12 @@
+/**
+ * Flex utilities
+ */
+
+// Import base and generic
+@import '@ecl/eiopa-base/eiopa-base';
+@import '@ecl/generic-utility-flex/generic-utility-flex';
+
+// Use generic mixin
+@include exports('eiopa-utility-flex') {
+  @include ecl-utility-flex();
+}

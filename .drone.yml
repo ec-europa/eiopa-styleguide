@@ -1,0 +1,86 @@
+branches:
+  exclude: [ gh-pages ]
+
+clone:
+  git:
+    image: plugins/git
+    commands:
+      - git init
+      - git remote add origin ${DRONE_REMOTE_URL}
+      - git fetch --no-tags origin master ${DRONE_COMMIT_REF}
+      - git checkout -qf master;
+      - if [ "${DRONE_BUILD_EVENT}" == "pull_request" ] || [ "${DRONE_BUILD_EVENT}" == "tag" ] ; then
+          git checkout -qf FETCH_HEAD;
+        else
+          git checkout -qf ${DRONE_COMMIT_BRANCH};
+        fi
+
+matrix:
+  TEST:
+    # - functional
+    - conventions
+
+pipeline:
+  install:
+    image: node:carbon
+    commands:
+      - yarn install --frozen-lockfile
+
+  conventions:
+    image: node:carbon
+    commands:
+      - yarn test:coding-conventions
+      - yarn test:independent-sass
+    when:
+      matrix:
+        TEST: conventions
+
+  build:
+    image: node:carbon
+    commands:
+      - if [ "${DRONE_BRANCH}" = "master" ] || yarn updated --ignoreCache ; then
+          yarn dist ;
+        fi
+    when:
+      event: [push]
+      matrix:
+        TEST: functional
+
+  deploy-pages:
+    image: node:carbon
+    secrets: [ GH_TOKEN ]
+    commands:
+      - ./scripts/deploy.sh
+    when:
+      event: [push]
+      branch: master
+      matrix:
+        TEST: functional
+
+  s3:
+    image: garland/aws-cli-docker
+    secrets: [ AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_DEFAULT_REGION ]
+    commands:
+      - if [ -d "./dist" ] ; then
+          cd ./dist/website ;
+          aws configure set default.s3.max_concurrent_requests 20 ;
+          aws s3 cp --recursive --quiet . s3://inno-ecl/build/${DRONE_BUILD_NUMBER}/ ;
+          echo "Transfer complete" ;
+        fi
+
+    when:
+      event: [push]
+      matrix:
+        TEST: functional
+
+  functional:
+    image: node:carbon
+    secrets: [ SAUCE_USERNAME, SAUCE_ACCESS_KEY ]
+    commands:
+      - if [ -d "./dist" ] ; then
+          yarn test:functional ;
+        fi
+    when:
+      event: [push]
+      matrix:
+        TEST: functional

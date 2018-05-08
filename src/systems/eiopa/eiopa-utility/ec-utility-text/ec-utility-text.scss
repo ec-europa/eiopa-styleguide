@@ -1,0 +1,12 @@
+/**
+ * Text utilities
+ */
+
+// Import base and generic
+@import '@ecl/eiopa-base/eiopa-base';
+@import '@ecl/generic-utility-text/generic-utility-text';
+
+// Use generic mixin
+@include exports('eiopa-utility-text') {
+  @include ecl-utility-text();
+}

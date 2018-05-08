@@ -1,0 +1,12 @@
+/**
+ * Display utilities
+ */
+
+// Import base and generic
+@import '@ecl/eiopa-base/eiopa-base';
+@import '@ecl/generic-utility-display/generic-utility-display';
+
+// Use generic mixin
+@include exports('eiopa-utility-display') {
+  @include ecl-utility-display();
+}

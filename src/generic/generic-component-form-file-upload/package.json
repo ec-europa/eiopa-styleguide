@@ -1,0 +1,24 @@
+{
+  "name": "@ecl/generic-component-form-file-upload",
+  "author": "European Commission",
+  "license": "EUPL-1.1",
+  "version": "1.0.0",
+  "description": "ECL File upload",
+  "module": "generic-component-form-file-upload.js",
+  "style": "generic-component-form-file-upload.scss",
+  "dependencies": {
+    "@ecl/generic-base": "^1.0.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ec-europa/eiopa-styleguide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ec-europa/eiopa-styleguide/issues"
+  },
+  "homepage": "https://github.com/ec-europa/eiopa-styleguide",
+  "keywords": ["ecl", "europa-component-library", "design-system"],
+  "main": "generic-component-form-file-upload.js",
+  "sass": "generic-component-form-file-upload.scss"
+}

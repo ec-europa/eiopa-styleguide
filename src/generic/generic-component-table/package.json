@@ -1,0 +1,24 @@
+{
+  "name": "@ecl/generic-component-table",
+  "author": "European Commission",
+  "license": "EUPL-1.1",
+  "version": "1.0.0",
+  "description": "ECL Tables",
+  "module": "generic-component-table.js",
+  "style": "generic-component-table.scss",
+  "dependencies": {
+    "@ecl/generic-base": "^1.0.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ec-europa/eiopa-styleguide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ec-europa/eiopa-styleguide/issues"
+  },
+  "homepage": "https://github.com/ec-europa/eiopa-styleguide",
+  "keywords": ["ecl", "europa-component-library", "design-system"],
+  "main": "generic-component-table.js",
+  "sass": "generic-component-table.scss"
+}

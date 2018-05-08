@@ -1,0 +1,6 @@
+@import '@ecl/eiopa-base/eiopa-base';
+@import '@ecl/generic-style-typography-paragraph/generic-style-typography-paragraph--editor';
+
+@include exports('eiopa-style-typography-paragraph--editor') {
+  @include ecl-editor-typography-paragraph();
+}

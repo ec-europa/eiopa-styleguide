@@ -1,0 +1,13 @@
+/**
+ * Headings
+ * @define heading
+ */
+
+// Import base and generic
+@import '@ecl/eiopa-base/eiopa-base';
+@import '@ecl/generic-style-typography-heading/generic-style-typography-heading';
+
+// Use generic mixin
+@include exports('eiopa-style-typography-heading') {
+  @include ecl-typography-heading();
+}

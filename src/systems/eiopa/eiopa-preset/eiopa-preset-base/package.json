@@ -1,0 +1,38 @@
+{
+  "name": "@ecl/eiopa-preset-base",
+  "author": "European Commission",
+  "license": "EUPL-1.1",
+  "version": "1.0.0",
+  "description": "Europa Component Library base preset",
+  "style": "eiopa-preset-base.scss",
+  "private": true,
+  "scripts": {
+    "build:copy": "ecl-builder copy",
+    "build:styles": "ecl-builder styles",
+    "build": "rimraf build && run-p build:* -ln",
+    "clean": "rimraf build dist",
+    "dist": "rimraf dist && cross-env NODE_ENV=production run-p build:* -ln"
+  },
+  "dependencies": {
+    "@ecl/eiopa-base": "^1.0.0",
+    "@ecl/eiopa-style-color": "^1.0.0",
+    "@ecl/eiopa-style-icon": "^1.0.0",
+    "@ecl/eiopa-style-image": "^1.0.0",
+    "@ecl/eiopa-style-typography": "^1.0.0",
+    "@ecl/eiopa-style-typography-heading": "^1.0.0",
+    "@ecl/eiopa-style-typography-list": "^1.0.0",
+    "@ecl/eiopa-style-typography-paragraph": "^1.0.0"
+  },
+  "devDependencies": {
+    "@ecl/builder": "0.2.0",
+    "cross-env": "5.1.4",
+    "npm-run-all": "4.1.2",
+    "rimraf": "2.6.2"
+  },
+  "keywords": ["ecl", "europa-component-library", "design-system"],
+  "homepage": "https://github.com/eiopa-europa/europa-component-library",
+  "bugs": {
+    "url": "https://github.com/eiopa-europa/europa-component-library/issues"
+  },
+  "sass": "eiopa-preset-base.scss"
+}

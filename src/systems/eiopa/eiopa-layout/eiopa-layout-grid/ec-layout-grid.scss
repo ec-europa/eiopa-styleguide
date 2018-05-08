@@ -1,0 +1,12 @@
+//
+// Grid mixins
+//
+
+// Import base and generic
+@import '@ecl/eiopa-base/eiopa-base';
+@import '@ecl/generic-layout-grid/generic-layout-grid';
+
+// Use generic mixin
+@include exports('eiopa-layout-grid') {
+  @include ecl-grid();
+}
