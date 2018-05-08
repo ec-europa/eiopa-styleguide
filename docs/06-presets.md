@@ -6,11 +6,11 @@ We currently offer 5 presets for each system:
 
 ## EC presets
 
-* [base](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/ec/ec-preset/ec-preset-base)
-* [corporate](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/ec/ec-preset/ec-preset-corporate)
-* [full](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/ec/ec-preset/ec-preset-full)
-* [website](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/ec/ec-preset/ec-preset-website)
-* [webtools](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/ec/ec-preset/ec-preset-webtools)
+* [base](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eiopa/ec-preset/ec-preset-base)
+* [corporate](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eiopa/ec-preset/ec-preset-corporate)
+* [full](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eiopa/ec-preset/ec-preset-full)
+* [website](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eiopa/ec-preset/ec-preset-website)
+* [webtools](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eiopa/ec-preset/ec-preset-webtools)
 
 ## EU presets
 

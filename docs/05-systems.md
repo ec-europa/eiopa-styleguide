@@ -25,7 +25,7 @@ Here's a brief list of changes done in the ECL's repository in order to accommod
 
 * The single [fractal configuration](https://fractal.build/guide/core-concepts/configuration-files) rendering a style guide for ECL compnents has been split into 2 different configuration files. All 2 sub-projects are managed under `./tools` folder.
 * Existing ECL components are moved as-is from `./framework` folder in a sub-folder `./src/generic`.
-* EC-system components are placed into `./src/systems/ec`.
+* EC-system components are placed into `./src/systems/eiopa`.
 * EU-system components are placed into `./src/systems/eu`.
 * Visual regression testing tools are now automatically calculating test suits per-system.
 

@@ -37,10 +37,7 @@ fractal.set(
   'project.url',
   'https://eiopa-europa.github.io/europa-component-library/'
 );
-fractal.set(
-  'project.repo',
-  'https://github.com/eiopa-europa/eiopa-styleguide'
-);
+fractal.set('project.repo', 'https://github.com/eiopa-europa/eiopa-styleguide');
 
 // Components config
 fractal.components.set('default.preview', '@preview');
@@ -72,7 +69,7 @@ fractal.components.set('statuses', {
   },
 });
 fractal.components.set('default.status', 'planned');
-fractal.components.set('path', path.resolve(projectRoot, 'src/systems/ec'));
+fractal.components.set('path', path.resolve(projectRoot, 'src/systems/eiopa'));
 fractal.components.engine(twigAdapter); // use Twig for components
 fractal.components.set('ext', '.twig');
 
