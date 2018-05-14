@@ -59,7 +59,7 @@ module.exports = {
   ],
   _demo: {
     scripts: `
-      document.addEventListener('DOMContentLoaded', function () { ECL.timelines(); });
+      document.addEventListener('DOMContentLoaded', function () { EIOPA.timelines(); });
       `,
   },
 };

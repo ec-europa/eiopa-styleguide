@@ -14,7 +14,7 @@ module.exports = {
   translations_tooltip: 'Click to see translations',
   _demo: {
     scripts: `document.addEventListener('DOMContentLoaded', function () {
-      ECL.initExpandables('#translations-expand-button');
+      EIOPA.initExpandables('#translations-expand-button');
     });`,
   },
 };

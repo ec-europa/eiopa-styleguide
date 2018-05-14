@@ -3,24 +3,24 @@ title: JavaScript
 label: JavaScript
 ---
 
-Europa Component Library (ECL) provides a maximally un-opinionated set of
+EIOPA (EIOPA) provides a maximally un-opinionated set of
 components' behaviors. In rare occasions, some components such as the date
 picker might use external libraries which integrate typical behaviors.
 Components are jQuery-free and provide consistent APIs.
 
 ## How to use
 
-First, you need to include the JavaScript file of `ECL.js` provided in the
+First, you need to include the JavaScript file of `EIOPA.js` provided in the
 [latest release package](https://github.com/ec-europa/eiopa-styleguide/releases).
-This file contains a JavaScript module called `ECL` which is an
+This file contains a JavaScript module called `EIOPA` which is an
 [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) built by the
 [`ecl-builder` utility](https://www.npmjs.com/package/@ecl/builder).
 
-This means that when you include the `ECL` library in your pages, you will have
-a namespaced global called `ECL` which contains the components' factory
+This means that when you include the `EIOPA` library in your pages, you will have
+a namespaced global called `EIOPA` which contains the components' factory
 functions.
 
-![ECL library in your browser's console]({{ path '/assets/ECLjs.png' }})
+![EIOPA library in your browser's console]({{ path '/assets/EIOPAjs.png' }})
 
 ### Instantiation
 
@@ -29,7 +29,7 @@ JavaScript libraries. For example, here's how to use the dialog component:
 
 ```js
 document.addEventListener('DOMContentLoaded', function() {
-  ECL.dialogs();
+  EIOPA.dialogs();
 });
 ```
 
@@ -43,7 +43,7 @@ elements which have different attributes, you can use the component as:
 
 ```js
 document.addEventListener('DOMContentLoaded', function() {
-  ECL.dialogs({
+  EIOPA.dialogs({
     dialogWindowId: 'ecl-carousel',
   });
 });

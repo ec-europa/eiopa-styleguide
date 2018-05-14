@@ -96,16 +96,16 @@ generally styling modifications. Responsive behaviour is handled by CSS.
 
 ### Adding JavaScript behaviours
 
-When using ECL tables, make sure to call the related JavaScript function:
+When using EIOPA tables, make sure to call the related JavaScript function:
 
 ```javascript
-ECL.eclTables();
+EIOPA.eclTables();
 ```
 
 You can also apply this script on a subset of elements:
 
 ```javascript
-ECL.eclTables(elements);
+EIOPA.eclTables(elements);
 ```
 
 ### Implementation goals

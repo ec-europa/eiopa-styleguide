@@ -4,7 +4,7 @@
   "author": "European Commission",
   "license": "EUPL-1.1",
   "version": "1.0.0",
-  "description": "ECL EC Styleguide based on Fractal",
+  "description": "EIOPA EC Styleguide based on Fractal",
   "scripts": {
     "build:preset":
       "cd ../../src/systems/eiopa/eiopa-preset/eiopa-preset-website && npm run build",

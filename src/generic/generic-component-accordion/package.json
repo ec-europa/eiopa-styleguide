@@ -3,7 +3,7 @@
   "author": "European Commission",
   "license": "EUPL-1.1",
   "version": "1.0.0",
-  "description": "ECL Accordions",
+  "description": "EIOPA Accordions",
   "module": "generic-component-accordion.js",
   "style": "generic-component-accordion.scss",
   "dependencies": {

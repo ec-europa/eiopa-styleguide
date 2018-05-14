@@ -32,9 +32,12 @@ const theme = eclTheme();
 theme.addLoadPath(path.resolve(__dirname, './theme-overrides'));
 
 // Project config
-fractal.set('project.title', 'EC System');
-fractal.set('project.url', '#');
-fractal.set('project.repo', 'https://github.com/eiopa-europa/eiopa-styleguide');
+fractal.set('project.title', 'EIOPA styleguide');
+fractal.set(
+  'project.url',
+  'https://ec-europa.github.io/eiopa-styleguide/eiopa'
+);
+fractal.set('project.repo', 'https://github.com/ec-europa/eiopa-styleguide');
 
 // Components config
 fractal.components.set('default.preview', '@preview');

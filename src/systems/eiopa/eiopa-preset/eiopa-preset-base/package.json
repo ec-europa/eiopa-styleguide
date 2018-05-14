@@ -3,7 +3,7 @@
   "author": "European Commission",
   "license": "EUPL-1.1",
   "version": "1.0.0",
-  "description": "Europa Component Library base preset",
+  "description": "EIOPA base preset",
   "style": "eiopa-preset-base.scss",
   "private": true,
   "scripts": {

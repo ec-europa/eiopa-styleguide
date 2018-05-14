@@ -3,7 +3,7 @@
   "author": "European Commission",
   "license": "EUPL-1.1",
   "version": "1.0.0",
-  "description": "ECL Margin",
+  "description": "EIOPA Margin",
   "style": "generic-utility-margin.scss",
   "dependencies": {
     "@ecl/generic-base": "^1.0.0"
