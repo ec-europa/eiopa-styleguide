@@ -2,4 +2,4 @@
   env:
     browser: true
   globals:
-    ECL: true
+    EIOPA: true

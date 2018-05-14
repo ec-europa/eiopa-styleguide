@@ -3,7 +3,7 @@
   "author": "European Commission",
   "license": "EUPL-1.1",
   "version": "1.0.0",
-  "description": "ECL Pager",
+  "description": "EIOPA Pager",
   "style": "generic-component-pager.scss",
   "dependencies": {
     "@ecl/generic-base": "^1.0.0",

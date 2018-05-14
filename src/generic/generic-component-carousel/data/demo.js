@@ -2,7 +2,7 @@ module.exports = {
   _demo: {
     scripts: `
       document.addEventListener('DOMContentLoaded', function () {
-          ECL.carousels();
+          EIOPA.carousels();
       });
     `,
   },

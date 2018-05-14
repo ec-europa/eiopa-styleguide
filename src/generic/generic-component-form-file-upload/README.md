@@ -13,6 +13,6 @@ In order to automatically attach event listeners on your file upload forms, add 
 
 ```js
 document.addEventListener('DOMContentLoaded', function() {
-  ECL.fileUploads();
+  EIOPA.fileUploads();
 });
 ```

@@ -19,7 +19,7 @@ module.exports = {
   _demo: {
     scripts: `
       document.addEventListener('DOMContentLoaded', function () {
-        ECL.navigationInpages();
+        EIOPA.navigationInpages();
       });
     `,
   },

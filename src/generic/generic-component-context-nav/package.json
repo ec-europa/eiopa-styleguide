@@ -1,7 +1,7 @@
 {
   "name": "@ecl/generic-component-context-nav",
   "version": "1.0.0",
-  "description": "ECL contextual navigations",
+  "description": "EIOPA contextual navigations",
   "style": "generic-component-context-nav.scss",
   "module": "generic-component-context-nav.js",
   "author": "European Commission",

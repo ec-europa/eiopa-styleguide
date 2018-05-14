@@ -3,7 +3,7 @@
   "author": "European Commission",
   "license": "EUPL-1.1",
   "version": "1.0.0",
-  "description": "ECL Language selector (page level)",
+  "description": "EIOPA Language selector (page level)",
   "module": "generic-component-lang-select-page.js",
   "style": "generic-component-lang-select-page.scss",
   "dependencies": {

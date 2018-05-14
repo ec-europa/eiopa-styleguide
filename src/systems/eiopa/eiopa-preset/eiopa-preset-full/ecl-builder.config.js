@@ -20,7 +20,7 @@ module.exports = {
     //   dest: path.resolve(outputFolder, 'scripts/ecl-eiopa-preset-full.js'),
     //   options: {
     //     banner,
-    //     moduleName: 'ECL',
+    //     moduleName: 'EIOPA',
     //     sourceMap: isProd ? false : 'inline',
     //   },
     // },
@@ -37,46 +37,6 @@ module.exports = {
     },
   ],
   copy: [
-    {
-      from: path.resolve(
-        nodeModules,
-        '@ecl/eiopa-component-form-checkbox/images'
-      ),
-      to: path.resolve(outputFolder, 'images'),
-    },
-    {
-      from: path.resolve(
-        nodeModules,
-        '@ecl/eiopa-component-form-feedback-message/images'
-      ),
-      to: path.resolve(outputFolder, 'images'),
-    },
-    {
-      from: path.resolve(nodeModules, '@ecl/eiopa-component-form-radio/images'),
-      to: path.resolve(outputFolder, 'images'),
-    },
-    {
-      from: path.resolve(
-        nodeModules,
-        '@ecl/eiopa-component-form-select/images'
-      ),
-      to: path.resolve(outputFolder, 'images'),
-    },
-    {
-      from: path.resolve(
-        nodeModules,
-        '@ecl/eiopa-component-social-icon/images'
-      ),
-      to: path.resolve(outputFolder, 'images'),
-    },
-    {
-      from: path.resolve(nodeModules, '@ecl/eiopa-component-message/images'),
-      to: path.resolve(outputFolder, 'images'),
-    },
-    {
-      from: path.resolve(nodeModules, '@ecl/generic-style-icon/fonts'),
-      to: path.resolve(outputFolder, 'fonts'),
-    },
     {
       from: path.resolve(nodeModules, '@ecl/eiopa-component-logo/images'),
       to: path.resolve(outputFolder, 'images'),

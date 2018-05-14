@@ -1,7 +1,7 @@
 {
   "name": "@ecl/generic-component-date-block",
   "version": "1.0.0",
-  "description": "ECL date blocks",
+  "description": "EIOPA date blocks",
   "style": "generic-component-date-block.scss",
   "author": "European Commission",
   "license": "EUPL-1.1",

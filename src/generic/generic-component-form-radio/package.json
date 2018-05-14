@@ -3,7 +3,7 @@
   "author": "European Commission",
   "license": "EUPL-1.1",
   "version": "1.0.0",
-  "description": "ECL Radio button field",
+  "description": "EIOPA Radio button field",
   "style": "generic-component-form-radio.scss",
   "dependencies": {
     "@ecl/generic-base": "^1.0.0",

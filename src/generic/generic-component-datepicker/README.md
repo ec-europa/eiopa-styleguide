@@ -42,6 +42,6 @@ var picker = new Pikaday({
 });
 ```
 
-The most important setting is the `theme: 'ecl-pika-theme'` which will add the necessary styling of ECL on datepickers.
+The most important setting is the `theme: 'ecl-pika-theme'` which will add the necessary styling of EIOPA on datepickers.
 
 Please make sure you detach other libraries from the inputs of type dates like jQuery or its UI datepicker, which will conflict when having several behaviors attached to same elements.

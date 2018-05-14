@@ -2,8 +2,8 @@ module.exports = {
   _demo: {
     scripts: `
       document.addEventListener('DOMContentLoaded', function () {
-        ECL.initExpandables('#example-expandable-button');
-        ECL.dropdown('.ecl-dropdown');
+        EIOPA.initExpandables('#example-expandable-button');
+        EIOPA.dropdown('.ecl-dropdown');
       });
     `,
   },
