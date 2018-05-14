@@ -1,0 +1,28 @@
+/**
+ * Header
+ * @define header
+ */
+
+// Import base
+@import '@ecl/eiopa-base/eiopa-base';
+
+.ecl-header {
+  background-color: map-get($ecl-colors, 'grey-5');
+  margin: 0;
+}
+
+.ecl-header__banner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ecl-header__body {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.ecl-header__menu {
+  display: flex;
+  justify-content: flex-end;
+}
