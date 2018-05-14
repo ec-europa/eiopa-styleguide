@@ -1,6 +1,7 @@
 @import '@ecl/eiopa-base/eiopa-base';
-@import '@ecl/generic-style-typography-list/generic-style-typography-list--editor';
+@import 'mixins';
 
-@include exports('eiopa-style-typography-list--editor') {
-  @include ecl-editor-typography-list();
+.ecl-editor ul,
+.ecl-editor ol {
+  @include list();
 }

@@ -5,9 +5,10 @@
 
 // Import base and generic
 @import '@ecl/eiopa-base/eiopa-base';
-@import '@ecl/generic-style-typography/generic-style-typography';
 
-// Use generic mixin
-@include exports('eiopa-style-typography') {
-  @include ecl-typography();
+.ecl-typography {
+  font-family: $ecl-font-family-base;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
 }

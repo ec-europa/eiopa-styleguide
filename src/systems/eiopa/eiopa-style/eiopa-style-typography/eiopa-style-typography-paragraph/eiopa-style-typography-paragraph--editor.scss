@@ -1,6 +1,8 @@
 @import '@ecl/eiopa-base/eiopa-base';
-@import '@ecl/generic-style-typography-paragraph/generic-style-typography-paragraph--editor';
+@import 'mixins';
 
-@include exports('eiopa-style-typography-paragraph--editor') {
-  @include ecl-editor-typography-paragraph();
+@mixin ecl-editor-typography-paragraph() {
+  .ecl-editor p {
+    @include paragraph();
+  }
 }
