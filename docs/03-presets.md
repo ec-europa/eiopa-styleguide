@@ -1,4 +1,7 @@
-# Presets
+---
+title: Presets
+label: Presets
+---
 
 A preset is a set of components from a specific system (EIOPA) bundled together for distribution.
 
