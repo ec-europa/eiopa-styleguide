@@ -6,6 +6,7 @@
 node_modules
 dist
 /src/systems/*/_imports
+/src/systems/**/build
 **/errorShots
 **/screenshots/captured
 **/screenshots/diff
