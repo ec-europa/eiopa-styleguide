@@ -11,6 +11,15 @@
   @include list();
 }
 
+.ecl-list:not(ol):not(.ecl-list--unstyled):not(.ecl-list--inline) {
+  list-style: none;
+
+  /* stylelint-disable-next-line */
+  li {
+    @include list-item();
+  }
+}
+
 // list alpha
 .ecl-list--alpha {
   list-style-type: lower-latin;

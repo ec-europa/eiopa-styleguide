@@ -5,3 +5,7 @@
 .ecl-editor ol {
   @include list();
 }
+
+.ecl-editor ul li {
+  @include list-item();
+}
