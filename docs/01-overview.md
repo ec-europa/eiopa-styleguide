@@ -3,6 +3,6 @@ title: Components
 label: Components
 ---
 
-# EIOPA
+# EIOPA Documentation
 
-**Feel free to look around!**
+Use the navigation to browse documentation topics.
