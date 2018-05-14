@@ -4,9 +4,19 @@
 
 // Import base and generic
 @import '@ecl/eiopa-base/eiopa-base';
-@import '@ecl/generic-utility-colorize/generic-utility-colorize';
 
-// Use generic mixin
-@include exports('eiopa-utility-colorize') {
-  @include ecl-utility-colorize();
+@each $key, $value in $ecl-colors {
+  .ecl-u-color-#{$key} {
+    color: $value;
+  }
+}
+
+@each $key, $value in $ecl-colors {
+  .ecl-u-bg-#{$key} {
+    background-color: $value;
+  }
+}
+
+.ecl-u-color-white {
+  color: #fff;
 }

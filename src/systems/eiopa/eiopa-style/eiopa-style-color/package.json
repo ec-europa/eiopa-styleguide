@@ -5,8 +5,7 @@
   "version": "1.0.0",
   "description": "EIOPA Colors",
   "dependencies": {
-    "@ecl/eiopa-base": "^1.0.0",
-    "@ecl/generic-style-color": "^1.0.0"
+    "@ecl/eiopa-base": "^1.0.0"
   },
   "private": true,
   "repository": {
