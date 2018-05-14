@@ -20,7 +20,7 @@ following script to your page (keep in mind that the selector is mandatory):
 
 ```javascript
 document.addEventListener('DOMContentLoaded', function() {
-  ECL.initExpandables('#selector-of-my-expandable');
+  EIOPA.initExpandables('#selector-of-my-expandable');
 });
 ```
 

@@ -1,6 +1,6 @@
 # Social icons
 
-This is the ECL package you need when you want to implement a social media icon
+This is the EIOPA package you need when you want to implement a social media icon
 in any way.
 
 Few possibilities to do so:

@@ -1,7 +1,7 @@
 {
   "name": "@ecl/generic-component-profile-topbar",
   "version": "1.0.0",
-  "description": "ECL profile topbar",
+  "description": "EIOPA profile topbar",
   "style": "generic-component-profile-topbar.scss",
   "author": "European Commission",
   "license": "EUPL-1.1",

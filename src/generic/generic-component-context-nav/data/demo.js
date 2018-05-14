@@ -1,6 +1,6 @@
 module.exports = {
   _demo: {
-    scripts: `document.addEventListener('DOMContentLoaded', function () { ECL.contextualNavs(); });`,
+    scripts: `document.addEventListener('DOMContentLoaded', function () { EIOPA.contextualNavs(); });`,
   },
   label: 'Label for contextual nav',
   items: [

@@ -1,21 +1,9 @@
 # Presets
 
-A preset is a set of components from a specific system (EC or EU) bundled together for distribution.
+A preset is a set of components from a specific system (EIOPA) bundled together for distribution.
 
-We currently offer 5 presets for each system:
+We currently offer 3 presets:
 
-## EC presets
-
-* [base](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eiopa/ec-preset/ec-preset-base)
-* [corporate](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eiopa/ec-preset/ec-preset-corporate)
-* [full](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eiopa/ec-preset/ec-preset-full)
-* [website](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eiopa/ec-preset/ec-preset-website)
-* [webtools](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eiopa/ec-preset/ec-preset-webtools)
-
-## EU presets
-
-* [base](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eu/eu-preset/eu-preset-base)
-* [corporate](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eu/eu-preset/eu-preset-corporate)
-* [full](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eu/eu-preset/eu-preset-full)
-* [website](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eu/eu-preset/eu-preset-website)
-* [webtools](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eu/eu-preset/eu-preset-webtools)
+* [base](https://github.com/ec-europa/eiopa-styleguide/tree/master/src/systems/eiopa/eiopa-preset/eiopa-preset-base)
+* [full](https://github.com/eiopa-europa/eiopa-styleguide/tree/master/src/systems/eiopa/eiopa-preset/eiopa-preset-full)
+* [website](https://github.com/eiopa-europa/eiopa-styleguide/tree/master/src/systems/eiopa/eiopa-preset/eiopa-preset-website)

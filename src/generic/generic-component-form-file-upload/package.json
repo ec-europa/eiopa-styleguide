@@ -3,7 +3,7 @@
   "author": "European Commission",
   "license": "EUPL-1.1",
   "version": "1.0.0",
-  "description": "ECL File upload",
+  "description": "EIOPA File upload",
   "module": "generic-component-form-file-upload.js",
   "style": "generic-component-form-file-upload.scss",
   "dependencies": {

@@ -20,7 +20,7 @@ module.exports = {
         // Show the link
         document.body.appendChild(link);
 
-        ECL.dialogs();
+        EIOPA.dialogs();
       });
     `,
   },

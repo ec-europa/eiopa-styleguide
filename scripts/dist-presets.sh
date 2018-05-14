@@ -16,13 +16,6 @@ yarn lerna --concurrency 3 --scope "@ecl/*-preset-*" run dist
 # Copy builds
 rm -rf ./dist/packages
 mkdir -p ./dist/packages
-cp -r ./src/systems/eiopa/ec-preset/ec-preset-base/dist ./dist/packages/ec-preset-base
-cp -r ./src/systems/eiopa/ec-preset/ec-preset-corporate/dist ./dist/packages/ec-preset-corporate
-cp -r ./src/systems/eiopa/ec-preset/ec-preset-full/dist ./dist/packages/ec-preset-full
-cp -r ./src/systems/eiopa/ec-preset/ec-preset-website/dist ./dist/packages/ec-preset-website
-cp -r ./src/systems/eiopa/ec-preset/ec-preset-webtools/dist ./dist/packages/ec-preset-webtools
-cp -r ./src/systems/eu/eu-preset/eu-preset-base/dist ./dist/packages/eu-preset-base
-cp -r ./src/systems/eu/eu-preset/eu-preset-corporate/dist ./dist/packages/eu-preset-corporate
-cp -r ./src/systems/eu/eu-preset/eu-preset-full/dist ./dist/packages/eu-preset-full
-cp -r ./src/systems/eu/eu-preset/eu-preset-website/dist ./dist/packages/eu-preset-website
-cp -r ./src/systems/eu/eu-preset/eu-preset-webtools/dist ./dist/packages/eu-preset-webtools
+cp -r ./src/systems/eiopa/eiopa-preset/eiopa-preset-base/dist ./dist/packages/eiopa-preset-base
+cp -r ./src/systems/eiopa/eiopa-preset/eiopa-preset-full/dist ./dist/packages/eiopa-preset-full
+cp -r ./src/systems/eiopa/eiopa-preset/eiopa-preset-website/dist ./dist/packages/eiopa-preset-website

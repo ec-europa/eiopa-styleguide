@@ -1,5 +1,5 @@
 ---
-title: How to update documentation on ECL
+title: How to update documentation on EIOPA
 label: Edit documentation
 ---
 
@@ -11,13 +11,13 @@ If you don't already have an account on [GitHub](https://github.com/login), make
 sure to create one and log in with it.
 
 You also have to be part of team
-[ECL doc editors](https://github.com/orgs/ec-europa/teams/ecl-doc-editors/). For
+[EIOPA doc editors](https://github.com/orgs/ec-europa/teams/ecl-doc-editors/). For
 an invite, please contact an owner of
 [ec-europa](https://github.com/orgs/ec-europa/people?utf8=%E2%9C%93&query=%20role%3Aowner).
 
 ## Step 1: Locate the file you want to update
 
-Go to [ECL repository](https://github.com/ec-europa/eiopa-styleguide)
+Go to [EIOPA repository](https://github.com/ec-europa/eiopa-styleguide)
 
 ### Option 1) Search
 
@@ -26,7 +26,7 @@ documentation format.
 
 <details><summary>_See how to do this step_</summary>
 
-![Locate ECL component in GitHub repository]({{ path
+![Locate EIOPA component in GitHub repository]({{ path
 '/assets/screenshots/locate-ecl-component.gif' }})
 
 </details>
@@ -35,7 +35,7 @@ documentation format.
 
 <details><summary>_See how to do this step_</summary>
 
-![Brose ECL GitHub repository to find a component]({{ path
+![Brose EIOPA GitHub repository to find a component]({{ path
 '/assets/screenshots/locate-ecl-component-browsing.gif' }})
 
 </details>
@@ -123,7 +123,7 @@ component (example: `framework/components/ecl-footers/README.md`)
 ## Step 7: Preview your changes and follow-up
 
 * When the pull request is open, our `HAL-Patch-INNO` bot will show you a
-  preview of the ECL style guide with the updates provided by you.
+  preview of the EIOPA style guide with the updates provided by you.
 
 * You can review them and make further changes on the branch repeating steps
   1-5. Once the changes are saved, the pull request is automatically updated, no
@@ -141,7 +141,7 @@ component (example: `framework/components/ecl-footers/README.md`)
 
 Your pull request will be briefly reviewed by our team, so that there are no
 linting issues and if all checks are green, changes will be integrated with the
-master ECL branch in short time.
+master EIOPA branch in short time.
 
 Thank you!
 

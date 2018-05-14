@@ -1,7 +1,7 @@
 {
   "name": "@ecl/generic-component-site-switcher",
   "version": "1.0.0",
-  "description": "ECL site switchers",
+  "description": "EIOPA site switchers",
   "style": "generic-component-site-switcher.scss",
   "author": "European Commission",
   "license": "EUPL-1.1",

@@ -20,7 +20,7 @@ module.exports = {
     //   dest: path.resolve(outputFolder, 'scripts/ecl-eiopa-preset-website.js'),
     //   options: {
     //     banner,
-    //     moduleName: 'ECL',
+    //     moduleName: 'EIOPA',
     //     sourceMap: isProd ? false : 'inline',
     //   },
     // },

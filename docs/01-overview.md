@@ -3,7 +3,6 @@ title: Components
 label: Components
 ---
 
-# Europa Component Library - ECL
+# EIOPA
 
-This is the component library for the new Europa visual identity. **Feel free to
-look around!**
+**Feel free to look around!**
