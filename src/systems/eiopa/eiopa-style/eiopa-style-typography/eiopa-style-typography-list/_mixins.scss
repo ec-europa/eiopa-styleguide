@@ -1,0 +1,19 @@
+@mixin list() {
+  line-height: 1.66;
+  max-width: 60em;
+}
+
+@mixin list-item() {
+  position: relative;
+
+  &::before {
+    background-color: map-get($ecl-colors, 'blue-50');
+    content: '';
+    display: block;
+    height: 0.6rem;
+    left: -2rem;
+    position: absolute;
+    top: 0.5rem;
+    width: 0.6rem;
+  }
+}
