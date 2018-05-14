@@ -1,4 +1,4 @@
-# EIOPA - EIOPA
+# EIOPA
 
 [![Build Status](https://drone.fpfis.eu/api/badges/ec-europa/eiopa-styleguide/status.svg)](https://drone.fpfis.eu/ec-europa/eiopa-styleguide)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
