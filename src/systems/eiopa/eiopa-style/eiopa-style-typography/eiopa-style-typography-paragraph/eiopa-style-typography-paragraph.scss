@@ -3,11 +3,30 @@
  * @define paragraph
  */
 
-// Import base and generic
+// Import base
 @import '@ecl/eiopa-base/eiopa-base';
-@import '@ecl/generic-style-typography-paragraph/generic-style-typography-paragraph';
+@import 'mixins';
 
-// Use generic mixin
-@include exports('eiopa-style-typography-paragraph') {
-  @include ecl-typography-paragraph();
+.ecl-paragraph {
+  @include paragraph();
+}
+
+.ecl-paragraph--l {
+  font-size: map-get($ecl-font-size, 'l');
+}
+
+.ecl-paragraph--m {
+  font-size: map-get($ecl-font-size, 'm');
+}
+
+.ecl-paragraph--s {
+  font-size: map-get($ecl-font-size, 's');
+}
+
+.ecl-paragraph--xs {
+  font-size: map-get($ecl-font-size, 'xs');
+}
+
+.ecl-paragraph--xxs {
+  font-size: map-get($ecl-font-size, 'xxs');
 }
