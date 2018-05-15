@@ -9,12 +9,14 @@
 .ecl-social-media-link {
   @include ecl-hidden-print();
 
-  background-color: map-get($ecl-colors, 'grey-10');
   box-sizing: border-box;
   display: block;
   margin: 0;
-  padding: map-get($ecl-spacing, 'm');
   width: 100%;
+}
+
+.ecl-social-media-link__list {
+  margin: 0;
 }
 
 .ecl-social-media-link__item {
@@ -40,7 +42,7 @@
 
   .ecl-social-media-link__item {
     margin-left: 0;
-    margin-right: map-get($ecl-spacing, 'm');
+    margin-right: map-get($ecl-spacing, 'xs');
   }
 
   .ecl-social-media-link__item:last-child {

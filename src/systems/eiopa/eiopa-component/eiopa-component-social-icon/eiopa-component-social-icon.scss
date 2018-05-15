@@ -34,37 +34,39 @@ $img-path: $ecl-assets-path + 'images/social/';
   }
 }
 
-@mixin ecl-social-icon() {
-  .ecl-social-icon {
-    align-items: center;
-    display: flex;
-    margin: 0;
-  }
+.ecl-social-icon {
+  align-items: center;
+  display: flex;
+  margin: 0;
+}
 
-  .ecl-social-icon::before {
-    content: '';
-    display: block;
-    height: 2rem;
-    margin-right: 1rem;
-    width: 2rem;
-  }
+.ecl-social-icon::before {
+  content: '';
+  display: block;
+  height: 2rem;
+  margin-right: 1rem;
+  width: 2rem;
+}
 
-  .ecl-social-icon--smaller {
-    min-height: 1.5rem;
+.ecl-social-icon:empty::before {
+  margin-right: 0;
+}
 
-    &::before {
-      height: 1.5rem;
-      width: 1.5rem;
-    }
-  }
+.ecl-social-icon--smaller {
+  min-height: 1.5rem;
 
-  @each $icon, $extra in $ecl-social-icons {
-    @include generate-icon(
-      '.ecl-social-icon--' + $icon,
-      $img-path,
-      $icon + '.svg',
-      $icon + '_hover.svg',
-      #{$extra}
-    );
+  &::before {
+    height: 1.5rem;
+    width: 1.5rem;
   }
+}
+
+@each $icon, $extra in $ecl-social-icons {
+  @include generate-icon(
+    '.ecl-social-icon--' + $icon,
+    $img-path,
+    $icon + '.svg',
+    $icon + '_hover.svg',
+    #{$extra}
+  );
 }

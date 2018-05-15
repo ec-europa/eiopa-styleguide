@@ -17,27 +17,27 @@ module.exports = {
       <!-- End: @${item.handle} -->\n
     `;
   },
-  default: 'default',
+  default: 'horizontal',
   variants: [
     {
-      name: 'default',
-      label: 'Default list with default display',
-      context: contextDefault,
+      name: 'horizontal-specific',
+      label: 'Horizontal list without label',
+      context: contextHorizontalSpecific,
     },
     {
-      name: 'default-specific',
-      label: 'Specific list with default display',
-      context: contextDefaultSpecific,
-    },
-    {
-      name: ' horizontal',
-      label: ' Default list with horizontal display',
+      name: 'horizontal',
+      label: 'Horizontal list with label',
       context: contextHorizontal,
     },
     {
-      name: 'horizontal-specific',
-      label: 'Specific list with horizontal display',
-      context: contextHorizontalSpecific,
+      name: 'default-specific',
+      label: 'Vertical list without label',
+      context: contextDefaultSpecific,
+    },
+    {
+      name: 'default',
+      label: 'Vertical list with label',
+      context: contextDefault,
     },
   ],
 };

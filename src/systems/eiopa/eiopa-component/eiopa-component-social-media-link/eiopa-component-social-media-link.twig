@@ -28,7 +28,7 @@
 }|merge(more|default({})) %}
 {% set _css_class = 'ecl-social-media-link' %}
 {% set _extra_attributes = '' %}
-{% set _system = system|default('generic') %}
+{% set _system = system|default('eiopa') %}
 
 {# Internal logic - Process properties #}
 
@@ -60,8 +60,10 @@
         }|merge(_social_icon) %}
       </li>
     {% endfor %}
+    {% if _more.label is not empty %}
     <li class="ecl-social-media-link__item">
       <a class="ecl-social-media-link__link" href="{{ _more.href }}" title="{{ _more.label }}">{{ _more.label }}</a>
     </li>
+    {% endif %}
   </ul>
 </div>
