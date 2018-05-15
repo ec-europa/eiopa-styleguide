@@ -1,9 +1,6 @@
 module.exports = {
   variant: 'internal',
-  aria_label: 'Search this website',
-  button: {
-    label: 'Search',
-  },
+  aria_label: 'Search the EIOPA website',
   input: {
     id: 'internal-search',
     extra_attributes: [

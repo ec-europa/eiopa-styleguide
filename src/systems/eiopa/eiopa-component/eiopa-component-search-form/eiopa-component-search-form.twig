@@ -19,7 +19,7 @@
 
 {% set _variant = variant|default('') %}
 {% set _aria_label = aria_label|default('Search this website') %}
-{% set _button = { 'label': 'Search' }|merge(button|default({})) %}
+{% set _button = button|default({}) %}
 {% set _input = { 'id': 'search' }|merge(input|default({})) %}
 {% set _css_class = 'ecl-search-form' %}
 {% set _extra_attributes = '' %}
@@ -53,6 +53,7 @@
   </label>
   {% include '@ecl/' ~ _system ~ '-component-button' with {
     'modifier': _variant == 'internal' ? 'form-primary' : 'form',
+    'icon': 'search',
     'extra_classes': 'ecl-search-form__button',
     'extra_attributes': [{ 'name': 'type', 'value': 'submit'}]
   }|merge(_button) only %}

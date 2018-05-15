@@ -48,12 +48,7 @@
 /* stylelint-disable-next-line order/order */
 @include ecl-media-breakpoint-up(lg) {
   .ecl-search-form__button {
-    padding: 0 map-get($ecl-spacing, 's');
     text-indent: 0;
-
-    &::before {
-      display: none !important;
-    }
   }
 }
 

@@ -1,8 +1,5 @@
 module.exports = {
-  aria_label: 'Search this website',
-  button: {
-    label: 'Search',
-  },
+  aria_label: 'Search the EIOPA website',
   input: {
     id: 'corporate-search',
     extra_attributes: [
