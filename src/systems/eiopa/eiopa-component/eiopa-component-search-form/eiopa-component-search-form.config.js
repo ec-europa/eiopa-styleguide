@@ -9,7 +9,7 @@ module.exports = {
   variants: [
     {
       name: 'default',
-      label: 'Corporate',
+      label: 'Homepage',
       context: contextDefault,
     },
     {

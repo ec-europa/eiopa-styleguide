@@ -16,7 +16,6 @@
 
 .ecl-search-form__textfield-wrapper {
   border: 3px solid transparent; // Keeps the focus in the container
-  flex-grow: 1;
 }
 
 .ecl-search-form__textfield {
@@ -56,16 +55,11 @@
   display: flex;
 
   .ecl-search-form__textfield-wrapper {
-    @include ecl-icon--before();
-
     border-color: #fff;
-    flex-grow: 1;
     position: relative;
 
     /* stylelint-disable-next-line */
     &::before {
-      @include ecl-icon('search');
-
       color: map-get($ecl-colors, 'grey-25');
       font-size: map-get($ecl-font-size, 'm');
       left: map-get($ecl-spacing, 'xxs');
@@ -73,11 +67,5 @@
       top: 50%;
       transform: translateY(-50%);
     }
-  }
-
-  .ecl-search-form__textfield {
-    // ~ 1 * icon's width + 1 * icon's left space + 1 * space between icon and input
-    padding-left: map-get($ecl-font-size, 'm') + 2 *
-      map-get($ecl-spacing, 'xxs');
   }
 }
