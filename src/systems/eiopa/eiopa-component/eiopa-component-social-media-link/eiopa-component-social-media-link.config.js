@@ -8,7 +8,7 @@ module.exports = {
   label: 'Social Media Links',
   status: 'ready',
   tags: ['molecule'],
-  collated: false,
+  collated: true,
   collator(markup, item) {
     return `
       <!-- Start: @${item.handle} -->\n
