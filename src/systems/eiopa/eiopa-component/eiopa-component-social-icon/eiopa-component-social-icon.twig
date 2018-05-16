@@ -1,6 +1,6 @@
 {#
   Parameters:
-    - "link" (object) (default: {}): shape of @ecl/generic-component-link
+    - "link" (object) (default: {}): shape of @ecl/eiopa-component-link
     - "variant" (string) (default: ''): correspond to the social network
     - "label" (string) (default: ''): used if "link" is not provided
     - "extra_classes" (string) (default: '')
@@ -11,7 +11,7 @@
         },
         ...
       ]
-    - "system" (string) (default: "generic")
+    - "system" (string) (default: "eiopa")
 #}
 
 {# Internal properties #}
@@ -21,7 +21,7 @@
 {% set _variant = variant|default('') %}
 {% set _css_class = 'ecl-social-icon' %}
 {% set _extra_attributes = '' %}
-{% set _system = system|default('generic') %}
+{% set _system = system|default('eiopa') %}
 
 {# Internal logic - Process properties #}
 
