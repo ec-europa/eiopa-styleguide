@@ -1,0 +1,25 @@
+{
+  "name": "@ecl/eiopa-component-social-media-link",
+  "author": "European Commission",
+  "license": "EUPL-1.1",
+  "version": "1.0.0",
+  "description": "EIOPA Social media link",
+  "style": "eiopa-component-social-media-link.scss",
+  "dependencies": {
+    "@ecl/eiopa-base": "^1.0.0",
+    "@ecl/eiopa-component-social-icon": "^1.0.0",
+    "@ecl/eiopa-style-typography-list": "^1.0.0",
+    "@ecl/eiopa-style-typography-paragraph": "^1.0.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ec-europa/eiopa-styleguide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ec-europa/eiopa-styleguide/issues"
+  },
+  "homepage": "https://github.com/ec-europa/eiopa-styleguide",
+  "keywords": ["ecl", "europa-component-library", "design-system"],
+  "sass": "eiopa-component-social-media-link.scss"
+}
