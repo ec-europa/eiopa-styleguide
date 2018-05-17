@@ -38,6 +38,13 @@ module.exports = {
   ],
   copy: [
     {
+      from: path.resolve(
+        nodeModules,
+        '@ecl/eiopa-component-social-icon/images'
+      ),
+      to: path.resolve(outputFolder, 'images'),
+    },
+    {
       from: path.resolve(nodeModules, '@ecl/eiopa-component-logo/images'),
       to: path.resolve(outputFolder, 'images'),
     },
