@@ -28,7 +28,7 @@
 {# Internal logic - Process properties #}
 
 {% if _variant is not empty %}
-  {% set _css_class = _css_class ~ ' ' ~ 'ecl-u-d-inline-flex ecl-search-form--' ~ _variant %}
+  {% set _css_class = _css_class ~ ' ' ~ 'ecl-search-form--' ~ _variant %}
 {% endif %}
 
 {% if extra_classes is defined and extra_classes is not empty %}

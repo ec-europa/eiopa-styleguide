@@ -16,6 +16,7 @@
 
 .ecl-search-form__textfield-wrapper {
   border: 3px solid transparent; // Keeps the focus in the container
+  flex-grow: 1;
 }
 
 .ecl-search-form__textfield {
@@ -52,10 +53,11 @@
 }
 
 .ecl-search-form--internal {
-  display: flex;
+  display: inline-flex;
 
   .ecl-search-form__textfield-wrapper {
     border-color: #fff;
+    flex-grow: 0;
     position: relative;
 
     /* stylelint-disable-next-line */
