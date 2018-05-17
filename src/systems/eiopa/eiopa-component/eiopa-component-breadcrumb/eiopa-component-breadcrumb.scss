@@ -4,7 +4,7 @@
  */
 
 // Import base
-@import '@ecl/generic-base/generic-base';
+@import '@ecl/eiopa-base/eiopa-base';
 
 .ecl-breadcrumb {
   @include ecl-hidden-print();

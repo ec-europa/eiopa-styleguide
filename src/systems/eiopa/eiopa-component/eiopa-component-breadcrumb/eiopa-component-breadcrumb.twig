@@ -9,14 +9,14 @@
         },
         ...
       ]
-    - "system" (string) (default: "generic")
+    - "system" (string) (default: "eiopa")
 #}
 
 {# Internal properties #}
 
 {% set _css_class = 'ecl-breadcrumb' %}
 {% set _extra_attributes = '' %}
-{% set _system = system|default('generic') %}
+{% set _system = system|default('eiopa') %}
 {% set _segments = segments|default([]) %}
 
 {# Internal logic - Process properties #}
