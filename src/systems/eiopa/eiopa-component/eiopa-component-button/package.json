@@ -7,18 +7,17 @@
   "style": "eiopa-component-button.scss",
   "dependencies": {
     "@ecl/eiopa-base": "^1.0.0",
-    "@ecl/eiopa-style-icon": "^1.0.0",
-    "@ecl/generic-component-button": "^1.0.0"
+    "@ecl/eiopa-style-icon": "^1.0.0"
   },
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eiopa-europa/europa-component-library.git"
+    "url": "git+https://github.com/ec-europa/eiopa-styleguide.git"
   },
   "bugs": {
-    "url": "https://github.com/eiopa-europa/europa-component-library/issues"
+    "url": "https://github.com/ec-europa/eiopa-styleguide/issues"
   },
-  "homepage": "https://github.com/eiopa-europa/europa-component-library",
+  "homepage": "https://github.com/ec-europa/eiopa-styleguide",
   "keywords": ["ecl", "europa-component-library", "design-system"],
   "sass": "eiopa-component-button.scss"
 }
