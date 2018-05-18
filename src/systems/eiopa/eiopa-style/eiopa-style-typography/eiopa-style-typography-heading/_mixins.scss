@@ -1,0 +1,41 @@
+@mixin heading() {
+  margin: 0 0 map-get($ecl-spacing, 'm');
+  padding: 0;
+}
+
+@mixin heading-1() {
+  color: map-get($ecl-colors, 'blue-120');
+  font-size: map-get($ecl-font-size, 'xxl');
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+@mixin heading-2() {
+  color: map-get($ecl-colors, 'blue-100');
+  font-size: map-get($ecl-font-size, 'xl');
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+@mixin heading-3() {
+  color: map-get($ecl-colors, 'blue-100');
+  font-size: map-get($ecl-font-size, 'l');
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+@mixin heading-4() {
+  color: map-get($ecl-colors, 'grey-100');
+  font-size: map-get($ecl-font-size, 'm');
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+@mixin heading-5() {
+  color: map-get($ecl-colors, 'grey-100');
+  font-size: map-get($ecl-font-size, 's');
+  font-weight: 500;
+  line-height: 1.1;
+  text-transform: uppercase;
+}

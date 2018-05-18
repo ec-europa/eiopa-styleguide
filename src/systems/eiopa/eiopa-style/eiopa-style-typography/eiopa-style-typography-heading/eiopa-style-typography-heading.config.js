@@ -51,16 +51,5 @@ module.exports = {
         text: 'Heading <h5> with class ecl-heading ecl-heading--h5',
       },
     },
-    {
-      name: 'headline',
-      label: 'headline',
-      context: {
-        element: 'div',
-        class: 'ecl-heading ecl-heading--headline',
-        style: 'background-color: #004494',
-        text:
-          'Headline with class ecl-heading ecl-heading--headline and background',
-      },
-    },
   ],
 };
