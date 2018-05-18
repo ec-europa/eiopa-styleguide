@@ -3,8 +3,6 @@ title: Git Commit Guidelines
 label: Git Commit
 ---
 
-# Git Commit
-
 _This documented was extracted from [Contributing to AngularJS](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md). Every contributor to the project should be aware of the following rules._
 
 We have very precise rules over how our git commit messages can be formatted. This leads to **more readable messages** that are easy to follow when looking through the **project history**. But also, we use the git commit messages to **generate the theme framework change log**.

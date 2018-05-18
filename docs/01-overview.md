@@ -1,8 +1,9 @@
 ---
-title: Components
-label: Components
+title: Overview
+label: Overview
 ---
 
-# EIOPA
+This is the landing page for all documentation pages of EIOPA.
 
-**Feel free to look around!**
+Here, you will find information regarding conventions about development practices
+and other guidelines on how to work more effectively with the project.
