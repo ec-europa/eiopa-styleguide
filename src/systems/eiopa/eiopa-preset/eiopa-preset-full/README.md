@@ -1,3 +1,3 @@
-# EC preset: full
+# EIOPA preset: full
 
-This preset contains all the EC components.
+This preset contains all components.

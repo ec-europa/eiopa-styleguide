@@ -33,10 +33,7 @@ theme.addLoadPath(path.resolve(__dirname, './theme-overrides'));
 
 // Project config
 fractal.set('project.title', 'EIOPA styleguide');
-fractal.set(
-  'project.url',
-  'https://ec-europa.github.io/eiopa-styleguide/eiopa'
-);
+fractal.set('project.url', 'https://eiopa.netlify.com');
 fractal.set('project.repo', 'https://github.com/ec-europa/eiopa-styleguide');
 
 // Components config
